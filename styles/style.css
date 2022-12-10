@@ -42,12 +42,14 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  position: absolute;
-  left: 64px;
+  margin: 0;
+  /* position: absolute; */
+  margin-left: 64px;
   z-index: 3;
 }
 
 .header__subtitle {
+  margin: 0;
   width: 388px;
   position: absolute;
   left: 64px;
@@ -88,27 +90,26 @@
   top: 64px;
 }
 
-.content {
-}
-
 /*===============================================*/
 /*=============== DESCRIPTION =======================*/
 
 .description {
-
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .two-columns {
   display: flex;
   width: 80%;
+  min-height: 350px;
   justify-content: space-between;
   align-items: baseline;
-  padding: 100px;
-  margin: 0 auto;
   background-color: #fff;
 }
 
 .two-columns__brief {
+  margin: 0;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -123,6 +124,7 @@
 }
 
 .two-columns__paragraph {
+  margin: 0;
   margin-bottom: 30px;
   line-height: 34px;
   font-size: 24px;
@@ -151,10 +153,12 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  margin: 0;
   margin-bottom: 20px;
 }
 
 .section-subtitle {
+  margin: 0;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
@@ -167,12 +171,11 @@
   justify-content: space-between;
   width: 1100px;
   margin: 0 auto;
-  /* padding-top: 60px; */
+  margin-bottom: 100px;
 }
 
 .table__cell {
   width: 250px;
-  margin-bottom: 60px;
   margin-top: 60px;
 }
 
@@ -211,7 +214,8 @@
 
 .feynman__title {
   width: 648px;
-  margin: 100px auto 0;
+  margin: 0 auto;
+  margin-top: 100px;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -282,10 +286,6 @@
   margin-bottom: 20px;
 }
 
-.table__text_theme_dark {
-
-}
-
 .kaufman__triangle {
   width: 877px;
   height: 877px;
@@ -319,20 +319,11 @@
 
 }
 
-.footer__column {
-
-
-}
-
 .footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
-
-}
-
-.logo_place_footer {
 
 }
 
@@ -342,10 +333,6 @@
 
 .footer__author::before {
   content: '\00A9';
-}
-
-.footer__column_content_info {
-
 }
 
 .footer__column-heading {
@@ -370,16 +357,9 @@
   font-weight: normal;
 }
 
-.footer__column_content_social{
-
-}
-
 .footer__social-icon {
   display: inline-block;
   width: 16px;
   height: 16px;
   margin-right: 10px;
 }
-
-
-
