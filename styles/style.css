@@ -72,7 +72,6 @@
 .header__main-illustration {
   width: 765px;
   height: 608px;
-  background-size: cover;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -140,10 +139,6 @@
 
 /*===============================================*/
 /*=============== DIGITS =======================*/
-
-.digits {
-
-}
 
 .section-title {
   width: 60%;
@@ -286,6 +281,7 @@
 
 .table__heading_theme_dark {
   margin-bottom: 20px;
+  z-index: 3;
 }
 
 .kaufman__triangle {
@@ -296,6 +292,7 @@
   right: -210px;
   background-image: url('../images/kaufman-triangle.svg');
   background-size: cover;
+
 }
 /*===============================================*/
 /*=============== FOOTER =======================*/
