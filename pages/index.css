@@ -74,6 +74,10 @@
 @import url('../blocks/kaufman/kaufman.css');
 @import url('../blocks/kaufman/__triangle/kaufman__triangle.css');
 /* Resource */
+@import url('../blocks/resource/resource.css');
+@import url('../blocks/resource/__logo-zone/resource__logo-zone.css');
+@import url('../blocks/resource/__link/resource__link.css');
+@import url('../blocks/resource/__logo/resource__logo.css');
 /* Footer */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__columns/footer__columns.css');
