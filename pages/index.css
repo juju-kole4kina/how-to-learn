@@ -2,6 +2,7 @@
 @import url('../vendor/normalize.css');
 /* Анимации */
 @import url('../blocks/rotation/rotation.css');
+@import url('../blocks/link-hover/link-hover.css');
 /* Общие стили страницы */
 @import url('../blocks/page/page.css');
 /* Лого */
